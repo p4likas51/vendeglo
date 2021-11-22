@@ -1,5 +1,6 @@
 body{
     background-color: rgb(236, 236, 167);
+    font-family: 'Roboto', sans-serif;
 }
 
 .menu{
@@ -24,4 +25,38 @@ a{
 
 a:hover{
     color: brown;
+}
+.image_items{
+    width: 50%;
+    height: 50%;
+    display: block;
+}
+.hover{
+    background-color: brown;
+    margin: auto;
+    padding: 10px;
+    width: 374px;
+}
+#burger{
+    width: 374px;
+    height: 250px;
+}
+#taco{
+    width: 374px;
+    height: 187px;
+}
+#fish{
+    width: 374px;
+    height: 249px;
+}
+#basashi{
+    width: 374px;
+    height: 225px;
+}
+#palacsinta{
+    width: 374px;
+    height: 280px;
+}
+h1{
+    text-align: center;
 }
