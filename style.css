@@ -36,6 +36,7 @@ a:hover{
     margin: auto;
     padding: 10px;
     width: 374px;
+    transition: 500ms;
 }
 #burger{
     width: 374px;
@@ -59,4 +60,18 @@ a:hover{
 }
 h1{
     text-align: center;
+}
+.hover:hover{
+    transform: scale(1.1);
+}
+.hover2{
+    background-color: brown;
+    border-radius: 10px;
+    display: none;
+    transition: 500ms;
+}
+.hover2:hover{
+    display: block;
+    background-color: rgb(236, 236, 167);
+    transform: scale(1.1);
 }
