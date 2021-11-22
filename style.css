@@ -75,3 +75,34 @@ h1{
     background-color: rgb(236, 236, 167);
     transform: scale(1.1);
 }
+#etlap{
+    float: right;
+    position: absolute;
+    left: 600px;
+    bottom: 600px;
+    width: 350px;
+    height: auto;
+}
+#hir1{
+    text-align: left;
+    float: left;
+    width: 50%;
+}
+#hir2{
+    text-align: right;
+    margin-left: 50%;
+    width: 50%;
+}
+#hir3{
+    text-align: left;
+    float: left;
+}
+
+#hir4{
+    margin-top: 19.53%;
+    text-align: right;
+    margin-left: 50%;
+}
+#hírcim{
+    margin-top: 0;
+}
