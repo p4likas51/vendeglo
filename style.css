@@ -1,6 +1,8 @@
 body{
     background-color: rgb(236, 236, 167);
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-image: url('images/12.jpeg');
 }
 
 .menu{
@@ -62,7 +64,8 @@ h1{
     text-align: center;
 }
 .hover:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
+    border-radius: 10px 10px 10px 10px;
 }
 .hover2{
     background-color: brown;
@@ -79,7 +82,7 @@ h1{
     float: right;
     position: absolute;
     left: 600px;
-    bottom: 600px;
+    bottom: 520px;
     width: 350px;
     height: auto;
 }
@@ -108,4 +111,36 @@ h1{
 }
 #hircontainer{
     margin-top: 30px;
+}
+#kapcsolat{
+    height: 159px;
+    width: 374px;
+}
+.bemutatkozas_cim{
+    margin-top: 5%;
+}
+#cook{
+    float: left;
+    position: absolute;
+    top: 900px;
+    left: 200px;
+}
+#contact{
+    float: left;
+    position: absolute;
+    top: 900px;
+    right: 100px;
+}
+#pspace{
+    height: 400px;
+    width: auto;
+    margin-bottom: 0;
+}
+#fix{
+    float: left;
+    position: absolute;
+    top: 725px;
+}
+#fix1{
+    width: 90%;
 }
