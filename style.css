@@ -43,14 +43,17 @@ a:hover{
 #burger{
     width: 374px;
     height: 250px;
+    margin-top: 11px;
 }
 #taco{
     width: 374px;
     height: 187px;
+    margin-top: 92px;
 }
 #fish{
     width: 374px;
     height: 249px;
+    margin-top: 30px;
 }
 #basashi{
     width: 374px;
@@ -59,21 +62,18 @@ a:hover{
 #palacsinta{
     width: 374px;
     height: 280px;
+    margin-top: 17px;
 }
 h1{
     text-align: center;
 }
-.hover:hover{
-    transform: scale(1.05);
-    border-radius: 10px 10px 10px 10px;
-}
-.hover2{
+.hover{
     background-color: brown;
     border-radius: 10px;
     display: none;
     transition: 500ms;
 }
-.hover2:hover{
+.hover:hover{
     display: block;
     background-color: rgb(236, 236, 167);
     transform: scale(1.1);
@@ -115,6 +115,9 @@ h1{
 #kapcsolat{
     height: 159px;
     width: 374px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .bemutatkozas_cim{
     margin-top: 5%;
@@ -149,4 +152,112 @@ h1{
 }
 p{
     font-size: 30px;
+}
+.burger{
+    background-color: brown;
+    float: left;
+    margin-left: 5px;
+    height: 399px;
+    border: 3px solid black;
+}
+.tortilla{
+    background-color: brown;
+    float: left;
+    height: 399px;
+    border: 3px solid black;
+    margin-left: 1px;
+}
+.snack{
+    background-color: brown;
+    float: left;
+    height: 399px;
+    border: 3px solid black;
+    margin-left: 1px;
+}
+.exotic{
+    background-color: brown;
+    float: left;
+    height: 399px;
+    border: 3px solid black;
+    margin-left: 1px;
+}
+.desszert{
+    background-color: brown;
+    float: left;
+    margin-right: 5px;
+    height: 399px;
+    border: 3px solid black;
+    margin-left: 1px;
+}
+.kapcsolat{
+    background-color: brown;
+    padding: 10px;
+    width: 748px;
+    margin: auto;
+}
+.urlap{
+    background-color: brown;
+    margin: auto;
+    padding: 10px;
+    width: 374px;
+    margin-top: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#urlap{
+    margin-bottom: 5px;
+    font-size: 24px;
+}
+#submit{
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+#sex{
+    font-weight: normal
+}
+span{
+    margin-top: 20px;
+    color: brown;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+}
+#txtetlap{
+    font-size: 24px;
+}
+.contact{
+    text-shadow: 2px 2px 8px brown;
+    color: white;
+}
+
+
+#hircontainer{
+    margin-top: 30px;
+    text-shadow: 2px 2px 8px brown;
+    color: white;
+}
+
+
+
+#hir3{
+    text-align: left;
+    float: left;
+    width: 55%;
+    margin-top: 75px;
+}
+
+
+
+
+#etlap{
+    float: right;
+    position: absolute;
+    left: 450px;
+    bottom: 625px;
+    width: 350px;
+    height: auto;
 }
