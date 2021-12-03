@@ -4,14 +4,12 @@ body{
     margin: 0;
     background-image: url('images/12.jpeg');
 }
-
 .menu{
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
     width: 70%;
 }
-
 .menu_items{
     margin-top: 20px;
     color: black;
@@ -20,7 +18,6 @@ body{
     font-weight: bold;
     display: flex;
 }
-
 a{
     text-decoration: none;
 }
@@ -90,21 +87,33 @@ h1{
     text-align: left;
     float: left;
     width: 50%;
+    background-color: brown;
 }
 #hir2{
     text-align: right;
     margin-left: 50%;
     width: 50%;
+    float: right;
+    background-color: brown;
+    height: 562px;
 }
 #hir3{
     text-align: left;
     float: left;
+    background-color: brown;
+    position: absolute;
+    height: 550px;
+    top: 650px;
 }
-
-#hir4{
-    margin-top: 19.53%;
+#fix{
     text-align: right;
-    margin-left: 50%;
+    float: right;
+    width: 50%;
+    background-color: brown;
+    position: absolute;
+    right: 0px;
+    height: 550px;
+    top: -500px;
 }
 #hírcim{
     margin-top: 0;
@@ -125,8 +134,8 @@ h1{
 #cook{
     float: left;
     position: absolute;
-    top: 900px;
-    left: 200px;
+    top: 170px;
+    left: 120px;
 }
 #contact{
     float: left;
@@ -233,31 +242,22 @@ span{
     text-shadow: 2px 2px 8px brown;
     color: white;
 }
-
-
 #hircontainer{
     margin-top: 30px;
-    text-shadow: 2px 2px 8px brown;
+    text-shadow: 4px 4px 10px brown;
     color: white;
 }
-
-
-
 #hir3{
     text-align: left;
     float: left;
     width: 55%;
     margin-top: 75px;
 }
-
-
-
-
 #etlap{
     float: right;
     position: absolute;
-    left: 600px;
-    bottom: 520px;
+    left: 450px;
+    bottom: 300px;
     width: 350px;
     height: auto;
 }
@@ -267,68 +267,57 @@ span{
     margin: 0 auto;
     width: 80%;
 }
-
 .ing_text{
     width: 60%;
     padding: 50px;
     text-align: justify;
 }
-
 .ing_div{
     width: 40%;
     float: right;
 }
-
 .ing_img{
     display: flex;
     margin: 21px 0 0 250px;
     width: 45%;
     border-radius: 5px;
 }
-
 .beginnings{
     background: brown;
     border-radius: 5px;
     width: 80%;
     margin: 50px auto;
 }
-
 .beginnings_text{
     width: 60%;
     padding: 50px;
     text-align: justify;
 }
-
 .beginnings_div{
     width: 40%;
     float: right;
 }
-
 .beginnings_img{
     display: flex;
     margin: 21px 0 0 250px;
     width: 45%;
     border-radius: 5px;
 }
-
 .feedback{
     background: brown;
     border-radius: 5px;
     width: 80%;
     margin: 50px auto;
 }
-
 .feedback_text{
     width: 60%;
     padding: 50px;
     text-align: justify;
 }
-
 .feedback_div{
     width: 40%;
     float: right;
 }
-
 .feedback_img{
     display: flex;
     margin: 37px 0 0 250px;
