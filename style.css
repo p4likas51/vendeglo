@@ -96,6 +96,8 @@ h1{
     float: right;
     background-color: brown;
     height: 562px;
+    position: absolute;
+    top: 79px;
 }
 #hir3{
     text-align: left;
@@ -257,7 +259,7 @@ span{
     float: right;
     position: absolute;
     left: 450px;
-    bottom: 300px;
+    bottom: 355px;
     width: 350px;
     height: auto;
 }
