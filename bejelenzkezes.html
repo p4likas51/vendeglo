@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,10 +14,36 @@
         <a href="etlap.html" class="menu_items" target="_self">Étlap</a>
         <a href="news.html" class="menu_items" target="_self">Hírek</a>
         <a href="kapcsolat.html" class="menu_items" target="_self">Kapcsolat</a>
-        <a href="bejelentkezés.html" class="menu_items" target="_self">Bejelentkezés</a>
+        <span target="_self">Bejelentkezés</span> 
     </div>
     <div class="urlap">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eos voluptates at exercitationem atque reiciendis! Omnis esse unde debitis corporis aperiam in quos saepe eaque minima? Quos sed quibusdam eligendi!
+        <form>
+            <label for="fname">Családnév:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Írja be a családnevét"><br>
+            <label for="lname">Keresztnév:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Írja be a keresztnevét"><br>
+            <label for="num">Telefonszám:</label><br>
+            <input type="email" id="num" name="num" placeholder="Írja be a telefonszámát"><br>
+            <label for="E-mail">E-mail cím:</label><br>
+            <input type="text" id="E-mail" name="E-mail" placeholder="Írja be e-mail címét"><br>
+            <label for="skill">Végzettség:</label><br>
+            <select id="cars" name="skill">
+                <option value="" disabled selected>Válasszon egyet</option>
+                <option value="cook">Szakács szakképesítés</option>
+                <option value="graduate">Érettségi</option>
+                <option value="shtewpid">8. Általános</option>
+                <option value="dzsipszi">Cigány</option>
+            </select>
+        </form>
+        <p id="urlap">Nem</p>
+        <form id="sex">
+            <input type="radio" id="man" name="fav_language" value="HTML">
+            <label for="man">Férfi</label>
+            <input type="radio" id="nőc" name="fav_language" value="CSS">
+            <label for="nőc">Nő</label><br>
+            <br>
+            <input id="submit" type="submit" value="Elküld">
+        </form>
     </div>
 </body>
 </html>
