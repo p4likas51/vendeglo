@@ -261,3 +261,77 @@ span{
     width: 350px;
     height: auto;
 }
+.ingridients{
+    background: brown;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.ing_text{
+    width: 60%;
+    padding: 50px;
+    text-align: justify;
+}
+
+.ing_div{
+    width: 40%;
+    float: right;
+}
+
+.ing_img{
+    display: flex;
+    margin: 21px 0 0 250px;
+    width: 45%;
+    border-radius: 5px;
+}
+
+.beginnings{
+    background: brown;
+    border-radius: 5px;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.beginnings_text{
+    width: 60%;
+    padding: 50px;
+    text-align: justify;
+}
+
+.beginnings_div{
+    width: 40%;
+    float: right;
+}
+
+.beginnings_img{
+    display: flex;
+    margin: 21px 0 0 250px;
+    width: 45%;
+    border-radius: 5px;
+}
+
+.feedback{
+    background: brown;
+    border-radius: 5px;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.feedback_text{
+    width: 60%;
+    padding: 50px;
+    text-align: justify;
+}
+
+.feedback_div{
+    width: 40%;
+    float: right;
+}
+
+.feedback_img{
+    display: flex;
+    margin: 37px 0 0 250px;
+    width: 45%;
+    border-radius: 5px;
+}
