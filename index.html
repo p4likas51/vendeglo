@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,30 +12,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
     <div class="menu">
-        <span target="_self">Nyitó oldal</span> 
+        <span target="_self">Nyitó oldal</span>
         <a href="bemutatkozas.html" class="menu_items" target="_self">Bemutatkozás</a>
         <a href="etlap.html" class="menu_items" target="_self">Étlap</a>
         <a href="news.html" class="menu_items" target="_self">Hírek</a>
         <a href="kapcsolat.html" class="menu_items" target="_self">Kapcsolat</a>
         <a href="bejelenzkezes.html" class="menu_items" target="_self">Bejelentkezés</a>
     </div>
-    <div class="images">
-        <div>
-            <div>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius atque voluptates quam numquam velit quidem aliquam obcaecati animi, minima quas nam iste est? Sequi iste nihil corporis temporibus, similique esse.
-                </p>
-            </div>
+    <div class="index_background">
+        <div class="index_title">
+            <h1>Üdvözöljük weboldalunkon!</h1>
         </div>
-        <div>
-            <img src="images/1.jpg" alt="Fish and Chips" class="image_items" style="float: right;">
-            <img src="images/jalapenho_chips_1920x1080.jpg" alt="Jalapenho chips" class="image_items">
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur ratione, soluta recusandae unde tempore excepturi nihil, ullam odio laboriosam magni nisi nulla. Vitae necessitatibus non voluptates, qui esse cupiditate iure!
-            </p>
+        <div class="index_slider">
+            <div class="index_images">
+                <input type="radio" name="slide" id="img1" checked>
+                <input type="radio" name="slide" id="img2">
+                <input type="radio" name="slide" id="img3">
+                <input type="radio" name="slide" id="img4">
+                <img src="images/1.jpg" alt="Fish & Chips" class="index_m1">
+                <img src="images/jalapenho_chips_1920x1080.jpg" alt="Jalapenho chips" class="index_m2">
+                <img src="images/hamburger.jpg" alt="Hamburger" class="index_m3">
+                <img src="images/chocolate_pancake.jpg" alt="Palacsinta csoki öntettel" class="index_m4">
+            </div>
+            <div class="index_dots">
+                <label for="img1"></label>
+                <label for="img2"></label>
+                <label for="img3"></label>
+                <label for="img4"></label>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
