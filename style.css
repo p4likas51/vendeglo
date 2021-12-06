@@ -378,6 +378,3 @@ span{
 #img4:checked ~ .index_m4{
     margin-left: -300%;
 }
-#fname, #lname, #num, #E-mail, #choose{
-    margin: 10px 0;
-}
